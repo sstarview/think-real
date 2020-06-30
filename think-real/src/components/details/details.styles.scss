@@ -1,0 +1,27 @@
+.details {
+  width: 65%;
+  align-items: center;
+
+  h1 {
+    text-align: center;
+  }
+
+  .details-videos {
+    margin: 0, auto;
+    h2,
+    h3 {
+      text-align: center;
+    }
+
+    .video-container {
+      display: flex;
+      flex-direction: column;
+
+      .video {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10px 10px;
+      }
+    }
+  }
+}

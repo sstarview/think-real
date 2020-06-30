@@ -1,0 +1,24 @@
+.question-component {
+  input {
+    height: 40px;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: #c6c6da;
+
+    &:focus {
+      border: 1px solid black;
+    }
+  }
+
+  button {
+    margin-left: 10px;
+    height: 40px;
+    background-color: rgb(160, 160, 185);
+    cursor: pointer;
+    border-radius: 4px;
+
+    &:hover {
+      background-color: #c6c6da;
+    }
+  }
+}

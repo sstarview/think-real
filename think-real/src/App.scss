@@ -1,0 +1,11 @@
+.app {
+  display: flex;
+  width: 100%;
+
+  .app-line {
+    min-height: 80vh;
+    background-color: rgb(63, 51, 51);
+    width: 5px;
+    margin: 40px 0;
+  }
+}
